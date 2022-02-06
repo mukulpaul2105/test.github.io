@@ -1,0 +1,97 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: linear-gradient(to right, #f89a9a, #6c6ceb);
+}
+
+h3 {
+   text-align: center;
+   font-size: 40px;
+   color: #09f888;
+}
+
+.input_form {
+   margin: auto;
+   text-align: right;
+}
+
+.input_form button {
+   width: 130px;
+   height: 40px;
+   margin: 20px 30px;
+}
+
+#head {
+   width: 70vw;
+   height: 50px;
+   font-size: 20px;
+   border-radius: 10px;
+}
+
+#desc {
+   width: 70vw;
+   height: 50px;
+   font-size: 20px;
+   border-radius: 10px;
+}
+
+
+.todo_list {
+   width: 70vw;
+   height: 90vh;
+}
+
+.todo_item , .todo_item {
+   display: flex;
+}
+
+.todo_item button {
+   width: 5vw;
+   border-radius: 10px;
+   margin-right: 20px;
+}
+
+.todo_item span {
+   width: 60vw;
+}
+
+i {
+   color: #ee0000;
+   font-size: 20px;
+   align-items: flex-end;
+}
+
+.input_form input {
+   padding: 5px 10px;
+   margin-right: 5px;
+}
+
+.todo_item {
+   margin: 10px 0;
+}
+
+.todo_list :nth-child(even) {
+   border-bottom: 5px solid #e9e9ff;
+   margin-bottom: 40px;
+   font-size: 20px;
+}
+
+.todo_item:first-child {
+   border-top: 5px solid #e9e9ff;
+   margin-top: 20px;
+   padding-top: 20px;
+}
+
+.todo_item:nth-child(even) {
+   font-size: 20px;
+   color: #100930;
+}
+
+.todo_item:nth-child(odd) {
+   font-size: 40px;
+   color: #100930;
+}
